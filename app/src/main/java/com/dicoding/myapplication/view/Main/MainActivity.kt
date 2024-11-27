@@ -25,6 +25,17 @@ class MainActivity : AppCompatActivity() {
                     true
                 }
 
+                R.id.navigation_status -> {
+                    loadFragment(StatusFragment())
+                    true
+                }
+
+                R.id.navigation_profile -> {
+                    loadFragment(ProfileFragment())
+                    true
+                }
+
+
                 else -> false
             }
         }
