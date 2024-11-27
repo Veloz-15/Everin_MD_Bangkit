@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".view.Main.AddFragment">
 
-    <!-- ScrollView untuk membungkus seluruh konten -->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -17,7 +16,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <!-- Gambar utama -->
             <ImageView
                 android:id="@+id/imgmakan"
                 android:layout_width="match_parent"
@@ -28,7 +26,6 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintEnd_toEndOf="parent" />
 
-            <!-- TextView untuk input keterangan -->
             <TextView
                 android:id="@+id/inputwhat"
                 android:layout_width="0dp"
@@ -72,8 +69,6 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="25dp" />
 
-
-            <!-- CardView untuk menampilkan informasi makanan -->
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardViewImgFood"
                 android:layout_width="0dp"
@@ -103,7 +98,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent" />
 
-                    <!-- Nama makanan -->
                     <TextView
                         android:id="@+id/food_name"
                         android:layout_width="wrap_content"
@@ -116,7 +110,6 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintEnd_toEndOf="parent" />
 
-                    <!-- Kalori -->
                     <TextView
                         android:id="@+id/food_calories"
                         android:layout_width="wrap_content"
@@ -128,7 +121,6 @@
                         app:layout_constraintTop_toBottomOf="@id/food_name"
                         app:layout_constraintStart_toStartOf="parent" />
 
-                    <!-- Karbohidrat -->
                     <TextView
                         android:id="@+id/food_carbo"
                         android:layout_width="wrap_content"
@@ -140,7 +132,6 @@
                         app:layout_constraintTop_toBottomOf="@id/food_calories"
                         app:layout_constraintStart_toStartOf="parent" />
 
-                    <!-- Lemak -->
                     <TextView
                         android:id="@+id/food_fat"
                         android:layout_width="wrap_content"
@@ -168,4 +159,33 @@
                 app:layout_constraintEnd_toEndOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".view.Main.AddFragment">
+
+    <ImageView
+        android:id="@+id/imgmakan"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/makan"
+        android:layout_marginTop="60dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/inputwhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input your food that you eat today "
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        app:layout_constraintTop_toBottomOf="@+id/imgmakan"
+        app:layout_constraintEnd_toStartOf="parent"/>
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(AddFragment())
                     true
                 }
+
                 R.id.navigation_status -> {
                     loadFragment(StatusFragment())
                     true
@@ -33,6 +34,7 @@ class MainActivity : AppCompatActivity() {
                     loadFragment(ProfileFragment())
                     true
                 }
+
 
                 else -> false
             }
