@@ -1,2 +1,4 @@
 # Everin_MD_Bangkit
-# ini adalah cabang untuk android app yang sudah fix
+Dokumentasi project Everin bagian Mobile Development
+
+ini adalah cabang untuk Development
