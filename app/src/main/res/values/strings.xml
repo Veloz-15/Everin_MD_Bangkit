@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Everin</string>
+
+    <string name="login">Masuk</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="question">Belum Punya Akun?</string>
+    <string name="daftar">Daftar Sekarang</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="previus_password">Previus Password</string>
+    <string name="submit_data">Submit Data</string>
+    <string name="add_new_story">Add New Story</string>
+</resources>
